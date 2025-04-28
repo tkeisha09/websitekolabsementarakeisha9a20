@@ -1,0 +1,123 @@
+body{
+    margin: 0px;
+}
+header{
+    display:flex;
+    top:0;
+    background-color:#097d4c;
+    width: 100%;
+    position: fixed;
+    display:flex;
+    justify-content:space-between;
+}
+nav{
+    padding: 10px;
+}
+nav a{
+    padding: 10px 25px;
+    text-decoration: none;
+    color: rgb(247, 240, 141);
+}
+nav a:hover{
+    transition: 0.2s;
+    background-color:#34b35a;
+    color: blanchedalmond;
+    text-shadow: 0px 0px 5px rgb(169, 239, 252);
+}
+div a{
+    padding: 10px 15px;
+    color:lightgoldenrodyellow;
+    float:right;
+}
+section.home {
+    padding-top: 100px;
+    text-align: center;
+    height: 800px;
+    background-color: #f1ead1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+section.home div{
+    text-align: center;
+    color: #12375B;
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+}
+section.home .greetings{
+    font-size: 30px;
+    color: pink;
+}
+section.home a{
+    color: rgb(65, 30, 30);
+    padding: 10 px 20 px;
+    text-decoration: none;
+    box-shadow: 0px 0 px 3 px;
+    border-radius: 20px;
+}
+  .about {
+    height: 800px;
+    background-color: #8b7474;
+  }
+  .product {
+    height: 1100px;
+    background-color:#f1ead1;
+  }
+  .card{
+    width:275px; 
+    margin:10px; 
+    height: 500px; 
+    box-shadow: 0 0 2px ; 
+    padding: 10px; 
+    background-color: pink;
+    text-align: center; 
+}
+.card img{
+    width: 170px;
+    border:10px solid rgb(235, 243, 191);
+    border-radius: 10px;
+
+}
+.product {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.deskripsi{
+    color: #12375B;
+    padding: 5px;
+    text-align: center;
+}
+.nama{
+    text-align: center;
+    font-family:'Franklin Gothic Medium';
+    color: rgb(158, 61, 61);
+}
+.harga{
+    color: #12375B;
+    padding: 5px;
+    text-align: center;
+    border:5px solid rgb(235, 243, 191);
+    border-radius: 5px;
+}
+button{
+    font-family:'Franklin Gothic Medium';
+    color:  #dd62aa;
+    cursor: pointer;
+    margin:5px;
+}
+button:hover{
+    border-radius: 6px;
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+    background-color: rgba(230, 245, 190, 0.781);
+}
+  .contact {
+    height: 800px;
+    background-color:#8b7474;
+  }
+  .banner{
+    float: left;
+    color:rgb(237, 255, 216);
+    font-size: 27px;
+}
