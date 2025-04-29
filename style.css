@@ -29,40 +29,94 @@ div a{
     color:lightgoldenrodyellow;
     float:right;
 }
-section.home {
+.home {
     padding-top: 100px;
     text-align: center;
     height: 800px;
-    background-color: #f1ead1;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-image: url("background\ 1.jpg");
+    background-size: 1300px;
 }
-section.home div{
+.home div{
     text-align: center;
     color: #12375B;
     margin: auto;
     width: 70%;
     padding: 20px;
 }
-section.home .greetings{
+.home .greetings{
     font-size: 30px;
     color: pink;
 }
-section.home a{
+.home a{
     color: rgb(65, 30, 30);
     padding: 10 px 20 px;
     text-decoration: none;
     box-shadow: 0px 0 px 3 px;
-    border-radius: 20px;
+    border-radius: 0px;
 }
   .about {
-    height: 800px;
-    background-color: #8b7474;
+    height: 1100px;
+    background-image: url("background\ 1.jpg");
+    background-size: 1300px;
+    text-align: center;
   }
+  .about .things{
+    font-family: 'Times New Roman';
+    font-size: 40px;
+  }
+.cardd{
+    position: relative;
+    width: 300px;
+    height: 290px;
+    box-shadow: 0 0 5px black;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+    align-items: center;
+}
+
+.cardd .gambar{
+    position: absolute;
+    width: 100%;
+}
+
+.cardd .gambar img{
+    width: 430px;
+}
+
+.cardd:hover .gambar img{
+    scale: 1.1;
+    transition: 0.5s;
+    filter:opacity(50%);
+}
+
+.cardd .deskripsi{
+    position: absolute;
+    top: 300px; 
+    transition: 0.5s;
+    color: maroon;
+}
+
+.cardd:hover .deskripsi{
+    top: 25px;
+    transition: 0.5s;
+}
+
+.cardd .deskripsi a{
+    text-decoration: none;
+    background-color: rgb(46, 58, 49);
+    color: wheat;
+    padding: 5px 10px;
+}
+
+.cardd .deskripsi a:hover{
+    background-color: grey;
+    transition: 0.3s;
+}
   .product {
     height: 1100px;
-    background-color:#f1ead1;
+    background-image: url("background\ 1.jpg");
+    background-size: 1300px;
   }
   .card{
     width:275px; 
@@ -114,10 +168,30 @@ button:hover{
 }
   .contact {
     height: 800px;
-    background-color:#8b7474;
+    background-image: url("background\ 1.jpg");
+    background-size: 1300px;
   }
   .banner{
     float: left;
     color:rgb(237, 255, 216);
     font-size: 27px;
+}
+footer{
+    background-color: rgb(79, 80, 143);
+    height: 50px;
+}
+footer .medsos{
+    text-align: center;
+    padding-top: 10px;
+}
+footer .medsos a{
+    color: rgb(79, 80, 143);
+    font-size: 20px;
+    padding: 5px 20 px;
+}
+.medsos a:hover{
+    transition: 0.2s;
+    background-color:#8d64ec;
+    color: blanchedalmond;
+    text-shadow: 0px 0px 5px rgb(43, 15, 88);
 }
