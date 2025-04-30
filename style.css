@@ -1,0 +1,313 @@
+body{
+    margin: 0px;
+    font-family: Arial, sans-serif;     
+}
+header{
+    display:flex;
+    top:0;
+    background-color:#097d4c;
+    width: 100%;
+    position: fixed;
+    display:flex;
+    justify-content:space-between;
+}
+nav{
+    padding: 10px;
+}
+nav a{
+    padding: 10px 25px;
+    text-decoration: none;
+    color: rgb(247, 240, 141);
+}
+nav a:hover{
+    transition: 0.2s;
+    background-color:#34b35a;
+    color: blanchedalmond;
+    text-shadow: 0px 0px 5px rgb(169, 239, 252);
+}
+.banner{
+    float: left;
+    color:#92a0e0;
+    text-shadow: 0px 0px 10px rgb(211, 229, 209);
+    border-radius: 3px;
+    font-family: Cambria, Cochin, Georgia;
+}
+.home {
+    padding-top: 25px;
+    text-align: center;
+    height: 850px;
+    background-image: url("background\ 7.jpg");
+    background-size: 1300px;
+}
+.home h2{
+    color: #050641;
+    font-size: 30px;
+    text-align: center;
+}
+.home div{
+    text-align: center;
+    color: #12375B;
+    margin-left: -0px;
+}
+div a{
+    color:#0e0c64;
+    text-shadow: #201457;
+}
+.home div img{
+    height: 220px;
+    border: 8px dotted rgb(37, 25, 104);
+}
+.home .greetings{
+    font-size: 30px;
+    color: rgb(169, 194, 206);
+    border: 3px dotted #9bb7be;
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center; 
+}
+.home .buttonel{
+    color:rgb(19, 53, 100);
+    margin-right:-20px;
+    margin-left: auto;
+    background-color: #93bee0;
+    text-align: center;
+    width: 250px ;
+    height: 35px ;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border: 4px ridge rgb(171, 150, 192);
+}
+.home .buttonel:hover{
+    border-radius: 6px;
+    text-shadow: 0px 0px 5px rgb(233, 238, 245);
+    background-color: rgb(243, 252, 161);
+}
+  .about {
+    height: 600px;
+    background-image: url("background\ 12.jpg");
+    background-size: 1300px;
+    text-align: center;
+  }
+  .about .things{
+    font-size: 25px;
+    margin-left: 7px;
+    margin-right: auto;
+    color: darkblue;
+    text-align: left;
+    padding-top: 20px;
+    width: 700px;
+    border: 2px dotted #4c2dd8;
+    background-color: white;
+    padding: 10px;
+    height: 10px;
+    border-radius: 5px;
+  }
+  .about h2{
+    color: #275d9b;
+    text-shadow: #92a0e0;
+    font-size: 25px;
+  }
+  .about .img{
+    height: 40px;
+  }
+.cardd{
+    position: relative;
+    width: 300px;
+    height: 290px;
+    box-shadow: 0 0 5px black;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+    align-items: center;
+    margin-right: 80px;
+    margin-left: auto;
+    padding: 15px; 
+}
+
+.cardd .gambar{
+    position: absolute;
+    width: 100%;
+}
+
+.cardd .gambar img{
+    width: 430px;
+}
+
+.cardd:hover .gambar img{
+    scale: 1.1;
+    transition: 0.5s;
+    filter:opacity(50%);
+}
+
+.cardd .deskripsi{
+    position: absolute;
+    top: 300px; 
+    transition: 0.5s;
+    color: rgb(45, 58, 61);
+}
+
+.cardd:hover .deskripsi{
+    top: 25px;
+    transition: 0.5s;
+}
+
+.cardd .deskripsi a{
+    text-decoration: none;
+    background-color: rgb(46, 58, 49);
+    color: wheat;
+    padding: 5px 10px;
+}
+
+.cardd .deskripsi a:hover{
+    background-color: grey;
+    transition: 0.3s;
+}
+.title{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    color: rgb(53, 118, 138);
+    text-shadow: 0px 0px 10px rgb(33, 104, 25);
+}
+  .product {
+    height: 1100px;
+    background-image: url("background\ 10.jpg");
+    background-size: 1300px;
+    margin-left: 40px;
+  }
+  .product h2{
+    color: #424196;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+  }
+  .card{
+    width:275px; 
+    margin:10px; 
+    height: 500px; 
+    box-shadow: 0 0 2px ; 
+    padding: 10px; 
+    background-color: rgb(246, 255, 192);
+    text-align: center; 
+    box-shadow: 0 0 2px ; 
+}
+.card img{
+    width: 170px;
+    border:10px solid rgb(128, 185, 117);
+    border-radius: 10px;
+}
+.card:hover{
+    top: 15px;
+    background-color: rgba(224, 203, 230, 0.993);
+    transition: 0.3s;
+    scale: 1.1;
+    border-radius: 10px;
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+.product {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.deskripsi{
+    color: #12375B;
+    padding: 5px;
+    text-align: center;
+}
+.nama{
+    text-align: center;
+    font-family:'Franklin Gothic Medium';
+    color: rgb(158, 61, 61);
+}
+.harga{
+    color: #12375B;
+    padding: 5px;
+    text-align: center;
+    border:5px solid rgb(128, 185, 117);;
+    border-radius: 5px;
+}
+button{
+    font-family:'Franklin Gothic Medium';
+    color:  #275d9b;
+    cursor: pointer;
+    margin:5px;
+    padding: 5px 5px; 
+}
+button:hover{
+    border-radius: 6px;
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+    background-color: rgba(190, 245, 238, 0.781);
+}
+  .contact {
+    height: 800px;
+    background-image: url("background\ 9.jpg");
+    background-size: 1300px;
+    text-align: left;
+
+  }
+  .contact .store{
+    margin-left: 100px;
+    padding-left: 20px;
+    padding-right: auto;
+    margin-right: auto;
+    color: darkblue;
+    text-align: left;
+    padding-top: 100px;
+    width: 400px;
+  }
+  .contact .kontak{
+    height: 140px;
+    width: 100%;
+    border: 2px dashed #201457;
+    background-color: white;
+    margin-left: 100px;
+    padding-left: 20px;
+    padding-right: auto;
+    margin-right: auto;
+  }
+  .contact .store img{
+    width: 600px;
+    border: 10px ridge rgb(187, 235, 187);
+    border-radius: 5px;
+    margin-left: 30px;
+    display: block;
+  }
+  .contact .store img:hover{
+    top: 10px;
+    background-color: rgba(224, 203, 230, 0.993);
+    transition: 0.5s;
+    scale: 1.1;
+}
+  .contact .store a{
+    margin: 0;           
+    padding-left: 30px; 
+  }
+
+  .banner{
+    float: left;
+    color:rgb(237, 255, 216);
+    font-size: 27px;
+}
+footer{
+    background-color: rgb(79, 80, 143);
+    height: 50px;
+    font-size: 20px;
+    padding-top: 15px;
+    font-family:'Haettenschweiler';
+}
+footer .medsos{
+    text-align: center;
+    padding-top: 10px;
+}
+footer .medsos a{
+    color: rgb(79, 80, 143);
+    font-size: 20px;
+}
+.medsos a:hover{
+    transition: 0.2s;
+    background-color:#8d64ec;
+    color: blanchedalmond;
+    text-shadow: 0px 0px 5px rgb(43, 15, 88);
+}
